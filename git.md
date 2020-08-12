@@ -78,3 +78,10 @@
     3. `git difff <id1> <id2>` -- for commit differences
     4. `git diff <branch1> <branch2>` -- for branch differences
     5. `git diff test` -- for current workspace differences with branch 'test'
+   
+- **Clean commit message**
+    1. `git checkout --orphan <branch_name>`  -- **create a new orphan branch**
+    2. `git add . && git commit -m 'commit message'`
+    3. `git branch -d master`
+    4. `git branch -m master`
+    5. `git push -f origin master` -- **force push to origin branch**
