@@ -12,7 +12,7 @@
 - `dotnet new`
     1. `dotnet new --list` --- *installed templates*
     2. `dotnet new --type project`
-    3. `dotnet new --type it`
+    3. `dotnet new --type item`
     4. `dotnet new -n 'project name'`
     5. `dotnet new spa -l`
    
