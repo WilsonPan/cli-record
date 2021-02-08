@@ -67,7 +67,7 @@
         1. `git revert <id>`
 - **Merge other branch**
     1. `git merge <branch_name>`            -- merge everything
-    2. `git merge - <branch_name>`   -- create new commit , not commit
+    2. `git merge --squash <branch_name>`   -- create new commit , not commit
 
 - **Logs**
     1. `git log`
