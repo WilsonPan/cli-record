@@ -3,7 +3,7 @@
 ## Solution or Project
 
 - `dotnet sln`
-   
+
     1. `dotnet sln list`
     2. `dotnet sln add todo-app/todo-app.csproj`
     3. `dotnet sln remove todo-app/todo-app.csproj`
@@ -15,7 +15,7 @@
     3. `dotnet new --type item`
     4. `dotnet new -n 'project name'`
     5. `dotnet new spa -l`
-   
+
 - `dotnet clean`
     1. `dotnet clean -c Release`  
     2. `dotnet clean --runtime osx-x64`
@@ -38,7 +38,6 @@
     1. `dotnet store --manifest packages.csproj --framework-version 2.0.0`
     2. `dotnet store --manifest packages.csproj --skip-optimization`
 
-
 - `dotnet build`
     1. `dotnet build -c Release`
     2. `dotnet build -f netcoreapp3.1`
@@ -58,11 +57,11 @@
     1. `dotnet test ~/projects/test1/test1.csproj`
     2. `dotnet test --logger trx`  --- **test & generate result**
     3. `dotnet test --logger "console;verbosity=detailed"`
-   
-## Package 
+
+## Package
 
 - `dotnet nuget`
-   
+
     1. `dotnet nuget enable source <NAME>`
     2. `dotnet nuget disable source <NAME>`
     3. `dotnet nuget list source`
@@ -72,13 +71,13 @@
     7. `dotnet nuget push foo.nupkg -k 4003d786-cc37-4004-bfdf-c4f3e8ef9b3a -s https://customsource/`
 
 - `dotnet pack`  *builds the project and creates NuGet packages*
-   
+
     1. `dotnet pack`
     2. `dotnet pack ~/projects/app1/project.csproj`
     3. `dotnet pack --no-build --output nupkgs`
 
 - `dotnet restore`
-    
+
     1. `dotnet restore ./projects/app1/app1.csproj`
     2. `dotnet restore -s c:\packages\mypackages`
 
@@ -89,11 +88,10 @@
     3. `dotnet add package Microsoft.AspNetCore.StaticFiles -s https://dotnet.myget.org/F/dotnet-core/api/v3/index.json`
 
 - `dotnet list package`
-    
+
     1. `dotnet list SentimentAnalysis.csproj package`
     2. `dotnet list package --outdated --include-prerelease`   --- **including prerelease versions**
     3. `dotnet list package --framework netcoreapp3.0`
-
 
 ## Tools
 
