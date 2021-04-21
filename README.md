@@ -1,5 +1,9 @@
 # Development Tools CLI
 
-- [git cli](/git.md)
+常用开发cli 命令整合
 
-- [net core cli](/dotnet.md)
+## [Git CLI](/git.md)
+
+## [NetCore CLI](/dotnet.md)
+
+## [Azure CLI](/azure.md)
